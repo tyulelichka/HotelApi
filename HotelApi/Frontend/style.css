@@ -1,0 +1,158 @@
+body {
+  font-family: "Palatino Linotype", serif;
+}
+
+.tab {
+  width: 1000px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: khaki;
+  text-align: center;
+}
+
+.room-element {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+.spa-element {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+.order-element {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+.menu-element {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+.spa-element {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+.user-element {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+  font-size: 25px;
+  color: rgb(3, 3, 3);
+}
+
+.window {
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.but {
+  background-color: khaki;
+  color: rgb(0, 0, 0);
+
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 30px;
+  min-width: 120px;
+  margin-left: 200px;
+}
+.one-block {
+  background-color: #d1c9ce;
+  background-size: cover;
+
+  width: 100%;
+  height: 100px;
+}
+
+.link {
+  font-size: 50px;
+}
+
+.tablea {
+  width: 1000px;
+  height: 40px;
+  text-align: center;
+  font-size: 50px;
+}
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 45%;
+}
+.text {
+  text-shadow: 1px 1px 1px silver, -1px 1px 1px silver;
+  color: rgb(0, 0, 0);
+  transition: all 0.5s;
+  text-shadow: -1px -1px 1px silver, 1px -1px 1px silver;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+.two-block {
+  background-color: #d1c9ce;
+  background-size: cover;
+
+  width: 100%;
+  height: 125px;
+}
+.Room {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.Order {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.Menu {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.Spa {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.User {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="one-block">
+      <table>
+        <tr>
+          <td class="tablea"><a href="index.html" class="link">Home</a></td>
+          <td class="tablea"><a href="Room.html" class="link">Room</a></td>
+          <td class="tablea"><a href="Order.html" class="link">Order</a></td>
+          <td class="tablea"><a href="Spa.html" class="link">Spa</a></td>
+          <td class="tablea"><a href="Menu.html" class="link">Menu</a></td>
+          <td class="tablea"><a href="User.html" class="link">User</a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="Menu">
+      <h1>All Menu</h1>
+      <table id="getMenu">
+        <tr>
+          <td class="tab">Id</td>
+          <td class="tab">Name</td>
+          <td class="tab">Desc</td>
+          <td class="tab">Price</td>
+        </tr>
+      </table>
+
+      <h1>Add Menu</h1>
+      <form id="add-menu-form">
+        <label for="POST-id"> Id:</label>
+        <input class="window" required id="POST-id" name="id" /><br />
+        <label for="POST-name">Name:</label>
+        <input class="window" required id="POST-name" name="name" /><br />
+        <label for="POST-description">Desc:</label>
+        <input
+          class="window"
+          required
+          id="POST-description"
+          name="description"
+        /><br />
+        <label for="POST-price">Price:</label>
+        <input class="window" required id="POST-price" name="price" /><br />
+
+        <input class="but" type="submit" value="Save" />
+      </form>
+
+      <h1>Update Menu</h1>
+      <form id="update-menu-form">
+        <label for="PUT-id"> Id:</label>
+        <input class="window" required id="PUT-id" name="id" /><br />
+        <label for="PUT-name">Name:</label>
+        <input class="window" required id="PUT-name" name="name" /><br />
+        <label for="PUT-description">Desc:</label>
+        <input
+          class="window"
+          required
+          id="PUT-description"
+          name="description"
+        /><br />
+        <label for="PUT-price">Price:</label>
+        <input class="window" required id="PUT-price" name="price" /><br />
+        <input class="but" type="submit" value="Save" />
+      </form>
+
+      <h1>Delete Menu</h1>
+      <form id="delete-menu-form">
+        <label for="DELETE-id"> Id:</label>
+        <input class="window" required id="DELETE-id" name="id" /><br />
+        <input class="but" type="submit" value="Save" />
+      </form>
+    </div>
+
+    <script src="./services/Menu.js"></script>
+    <script src="./controllers/menuController.js"></script>
+  </body>
+</html>
